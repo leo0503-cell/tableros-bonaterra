@@ -1,0 +1,66 @@
+/* Refinamientos de navegación, catálogo y experiencia de cotización. */
+html {scroll-padding-top:110px} [hidden]{display:none!important}
+.saltar{position:fixed;top:-100px;left:20px;z-index:200;background:#faf3e4;color:#1b2712;padding:12px}.saltar:focus{top:10px}
+body .barra{gap:18px;background:linear-gradient(#0f140ccc,transparent)}
+body .barra nav{gap:20px;font-family:var(--fuente-display);font-size:13px}
+body .barra.posado{background:#faf3e4f5}
+body .marca .nombre{font-size:.9rem}body .titular{font-size:clamp(2rem,10.5vw,11.5rem)}
+.menu-toggle{display:none;min-height:44px;padding:8px 14px;border:1px solid currentColor;border-radius:30px;background:transparent;cursor:pointer}
+.hero-acciones{display:flex;justify-content:center;gap:12px;margin-top:24px}
+.hero-acciones a,.accion{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:12px 20px;border:1px solid #426026;border-radius:999px;text-decoration:none;background:#426026;color:#faf3e4;font:600 13px var(--fuente-display);cursor:pointer}
+.hero-acciones a{background:#faf3e4;color:#24351a;border-color:#faf3e4}.hero-acciones a:last-child{background:#17231088;color:#faf3e4}
+.confianza{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;padding:30px max(24px,calc((100vw - 1120px)/2));border-bottom:1px solid var(--linea);font:500 13px var(--fuente-display)}
+.confianza strong{display:block;font-size:24px;margin-bottom:5px;color:#426026}
+.filtros{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 26px}.filtros button{padding:12px 20px;background:transparent;border:1px solid var(--linea);border-radius:30px;font:500 13px var(--fuente-display);cursor:pointer}.filtros button[aria-pressed=true]{background:#426026;color:#faf3e4}
+body .linea{border-radius:8px;transition:box-shadow .2s,transform .2s}body .linea:hover{box-shadow:0 15px 35px #24351a15;transform:translateY(-3px)}
+.linea .accion{margin-top:12px;align-self:flex-start}.resultado{font-size:14px;color:#6b7359;margin:0 0 20px}
+body .mosaico{gap:22px}body .toma{border-radius:6px;align-self:start;cursor:zoom-in}
+body .toma img{height:auto;aspect-ratio:4/5}body .toma figcaption{position:static;padding:18px;background:#faf3e4;color:#1b2712;gap:8px}body .toma:hover img{transform:none}
+.toma .uso{opacity:1;color:#6b7359}.toma:focus-visible{outline:3px solid #426026;outline-offset:5px}
+.visor{border:0;border-radius:12px;max-width:min(1000px,94vw);max-height:92dvh;padding:20px;background:#faf3e4;color:#1b2712}.visor::backdrop{background:#0b130ce6}.visor img{display:block;max-width:100%;height:65dvh;object-fit:contain;margin:auto}.visor .cerrar{display:block;margin:0 0 12px auto;background:transparent;cursor:pointer;padding:10px}.visor h2{font-size:22px;margin:14px 0}.visor p{margin:8px 0 16px}
+.faq{border-top:1px solid var(--linea)}.faq details{padding:22px 0;border-bottom:1px solid var(--linea)}.faq summary{cursor:pointer;font:600 17px var(--fuente-display)}.faq details p{max-width:65ch;color:#6b7359}
+.contacto .valor{overflow-wrap:anywhere}.seleccion{padding:14px;background:#f0e7d2;border-left:3px solid #426026;border-radius:4px;font-size:15px}
+.movil-cta{display:none}body .catalogo-mascota img{object-fit:contain}
+@media(max-width:1150px){body .barra nav{display:none}.menu-toggle{display:block}body .barra.menu-abierto nav{display:flex;position:absolute;top:100%;left:16px;right:16px;flex-direction:column;padding:24px;background:#faf3e4;color:#1b2712;box-shadow:0 18px 40px #0003;border-radius:10px}body .barra nav a{padding:8px}}
+@media(max-width:640px){body .barra{padding:14px 16px;gap:10px}body .barra>.wa{display:none}body .marca .nombre{font-size:.84rem}body .escena{min-height:0;height:100svh}body .cine{height:calc(100svh + 3400px)}body .titular{top:24svh}body .intro{bottom:70px}body .intro p{font-size:1rem}body .etiquetas{gap:6px}body .etiquetas span{font-size:11px;min-height:30px;padding:0 10px}.hero-acciones a{padding:10px 16px;font-size:11px}.confianza{gap:22px;padding:24px}.confianza>span{flex:1 1 40%}body .mosaico{grid-template-columns:1fr}body .pie{padding-bottom:100px}.movil-cta{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:65;gap:12px;align-items:center;justify-content:space-between;padding:12px 18px calc(12px + env(safe-area-inset-bottom));background:#faf3e4;border-top:1px solid #42602633;font-size:13px}.movil-cta a{padding:12px 20px}.visor img{height:55dvh}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+body .titular{width:min(74vw,880px);top:14vh;font-size:inherit}
+body .titular .logo-principal{display:block;width:100%;height:auto;max-height:34vh;object-fit:contain}
+body .titular .fina{margin-top:-.4em;font-size:clamp(1.1rem,2.2vw,2rem)}
+.materiales-vertical{position:absolute;z-index:8;right:22px;top:100px;bottom:22px;width:100px;display:flex;justify-content:center;opacity:var(--intro-op)}
+.materiales-vertical svg{display:block;height:100%;max-height:700px;width:100%;overflow:visible}
+.icono-servicio{display:block;width:160px;height:120px;object-fit:contain;margin:-8px auto 10px}
+#servicios .servicio{text-align:center}
+.materiales-resumen{background:#263819;color:#faf3e4;padding:36px 22px;gap:20px;align-items:center;display:grid;grid-template-columns:1fr 100px}.materiales-resumen h2{font:600 26px var(--fuente-display);line-height:1.1}.materiales-resumen .accion{padding:14px;font-size:12px}.materiales-resumen .materiales-vertical{position:static;width:100px;height:700px;opacity:1}
+@media(max-width:640px){body .titular{width:88vw;top:17svh;left:46%;font-size:inherit}body .titular .logo-principal{max-height:23svh}body .titular .fina{font-size:1.05rem;margin-top:0}body .intro{width:calc(100vw - 44px)}}
+body .titular{width:min(94vw,1200px);top:9vh;left:47%}
+body .titular .logo-principal{max-height:44vh}
+.materiales-vertical{left:50%;right:auto;top:auto;bottom:18px;transform:translateX(-50%);width:min(1000px,90vw);height:116px;display:flex;gap:12px;align-items:center}
+.materiales-vertical svg{flex:1 1 0;min-width:0;width:100%;height:116px;overflow:hidden}
+body .intro{bottom:160px}
+@media(max-width:640px){body .titular{width:100vw;top:13svh;left:46%}body .titular .logo-principal{max-height:31svh}body .intro{bottom:70px}.materiales-resumen{display:block;padding:28px 20px}.materiales-resumen h2{font-size:24px}.materiales-resumen .materiales-vertical{position:static;transform:none;width:100%;height:145px;overflow-x:auto;justify-content:flex-start;gap:12px;margin-top:20px}.materiales-resumen .materiales-vertical svg{flex:0 0 100px;height:135px;width:100px}}
+
+/* Tira de materiales bajo el slogan, en el flujo del titular. */
+body .titular .materiales-vertical{position:static;transform:none;opacity:1;
+  width:100%;max-width:1040px;height:104px;margin:22px auto 0;gap:10px}
+body .titular .materiales-vertical svg{height:104px}
+body .titular .logo-principal{max-height:34vh}
+body .intro{bottom:clamp(48px,9vh,110px)}
+@media(max-width:900px){
+  body .titular .materiales-vertical{height:92px;margin-top:16px}
+  body .titular .materiales-vertical svg{height:92px}
+}
+@media(max-width:640px){
+  body .titular .logo-principal{max-height:26svh}
+  body .intro{bottom:70px}
+}
+@media(max-width:640px){
+  body .titular .materiales-vertical{height:104px;margin-top:14px;gap:8px;
+    overflow-x:auto;overflow-y:hidden;justify-content:flex-start;
+    scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;
+    padding:0 14px;scrollbar-width:none}
+  body .titular .materiales-vertical::-webkit-scrollbar{display:none}
+  body .titular .materiales-vertical svg{flex:0 0 84px;width:84px;height:104px;scroll-snap-align:start}
+  body .titular .logo-principal{max-height:22svh}
+  body .intro{bottom:62px}
+}

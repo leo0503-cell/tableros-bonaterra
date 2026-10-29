@@ -1,0 +1,45 @@
+{
+  "tool": "image_gen integrada",
+  "references": [
+    "C7-23.jpg (textura roble)"
+  ],
+  "images": [
+    {
+      "file": "08-wpc-stud.png",
+      "tool": "image_gen integrada",
+      "prompt_file": "08-wpc-stud.prompt.txt"
+    },
+    {
+      "file": "01-muro-terminado.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: text-free architectural render for a Mexican carpentry materials carousel. Input image reference: C7-23.jpg is ONLY the reference for honey oak narrow-ribbed WPC woodgrain and realistic lambrin appearance, ignore all its lettering and logo. Create a new premium realistic finished warm Mexican home entrance with floor-to-ceiling vertical honey oak WPC narrow fluted wall cladding, aligned ribs and subtle dark recessed grooves matching reference. Small floating oak console, quiet cream plaster walls, pale stone floor, subtle ceramic vase with dried branch. Natural late afternoon daylight, tactile wood grain, believable residential scale, warm neutral colors, no green color casts. Composition landscape 3:2, wall is the hero with its slats occupying most of the picture, floor and console near lower third, straight verticals, restrained styling, architectural photography. Full frame photo only. Absolutely zero text, zero typography, zero letters, zero logos, zero watermark, no graphic overlay, no collage."
+    },
+    {
+      "file": "02-bastidor.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: text-free architectural installation detail photo. Reference image C7-23 is only for narrow ribbed honey oak WPC texture, ignore its lettering. New realistic warm Mexican residential interior construction, wall halfway clad in vertical oak-look ribbed WPC lambrin. Left 45 percent of wall already finished in vertical narrow oak ribs. Right 55 percent shows bare pale cream masonry with four horizontal dark brown WPC rectangular batten support rails fixed to wall with discreet screws, straight parallel flat horizontal rails, no lattice, no metal studs. The horizontal support rails visibly continue behind the installed vertical cladding, mechanically plausible substructure. No workers, no tools obstructing, clean worksite, subtle dusty stone floor. Camera nearly straight-on with slight side perspective, large clear wall area, warm natural side light, realistic architectural materials, wood grain same honey oak as reference. Landscape 3:2 composition. Full photo only, absolutely no words, logos, letters, labels, arrows, graphic overlays, watermark."
+    },
+    {
+      "file": "03-starter-clip.png",
+      "prompt": "Use case: product-mockup. Asset type: photorealistic generic WPC accessory macro photo for an educational materials carousel, zero branding. A single small realistic matte stainless-steel starter clip, bent L/J shaped thin metal bracket with one countersunk screw hole in its flat base and short hooked vertical lip that holds the bottom groove of the first WPC board. The clip sits in front of a short honey oak wood-composite ribbed cladding sample on a warm beige workbench. A small dark screw lies beside the clip. Metal bracket is the sharply focused clear hero, foreground large enough to read its shape. Simple physical functional stamped sheet-metal geometry, not a hinge or nail plate. Warm natural soft light, macro product photography, subtly blurred oak woodgrain background, cream and honey oak palette. Landscape 3:2 with clip centered, no lettering, no numbers, no text, no watermark, no logo, no graphics or diagrams."
+    },
+    {
+      "file": "04-plastic-caps.png",
+      "prompt": "Use case: product-mockup. Asset type: photorealistic macro product detail for Mexican WPC supplier educational carousel. On a light warm beige workbench, show the rectangular end of a short honey-oak woodgrain hollow rectangular WPC stud/beam fitted flush with a plain dark brown matte plastic end cap. Beside it place a second loose matching rectangular injection molded plastic end cap with short inner insertion ribs visible from a slight angle, showing how the closed flat cap fits inside the hollow rectangular profile. Simple generic credible physical parts, no brands, no exaggerated engineering. The beam lies diagonally from rear upper left toward foreground center, installed cap prominently visible at foreground. Product fills most of frame, realistic scale and subtle fine woodgrain, warm soft natural daylight, sharp realistic textures. Landscape 3:2. ZERO text, zero typography, zero labels, zero logos, zero watermarks, no diagrams, no graphics."
+    },
+    {
+      "file": "05-esquina-exterior.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: text-free close-up architectural material render. Only use attached C7-23.jpg as reference for narrow-ribbed honey oak WPC lambrin material and grain; ignore all words and logos. Warm natural daylight, realistic Mexican residential interior, premium wood texture, crisp believable construction detail, no people. Full-frame photo, no text, no typography, no markings, no watermark, no graphics or logos. Square composition. Primary subject: a convex OUTSIDE 90-degree corner of a projecting square column covered on both visible faces by vertical narrow ribbed honey oak WPC cladding. A slender smooth matching honey-oak L-shaped WPC corner profile runs continuously down the outside corner, neatly concealing the cut ends of both ribbed panels. The smooth vertical corner molding is clear, its two equal-width faces form a narrow crisp L trim, distinguished from the ribbed panels. Close crop showing both faces of the projection and the center vertical outward corner, slight view from above, background beige plaster wall, pale stone floor just at bottom, simple and physically plausible."
+    },
+    {
+      "file": "06-esquina-interior.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: text-free close-up architectural material render. Only use attached C7-23.jpg as reference for narrow-ribbed honey oak WPC lambrin material and grain; ignore all words and logos. Warm natural daylight, realistic Mexican residential interior, premium wood texture, crisp believable construction detail, no people. Full-frame photo, no text, no typography, no markings, no watermark, no graphics or logos. Square composition. Primary subject: a concave INSIDE 90-degree room corner where two walls meet, both clad in vertical narrow ribbed honey oak WPC panels. A narrow smooth matching honey oak internal corner profile neatly closes the vertical inner seam, concealing cut edges of both panels. Clearly readable reentrant internal corner as the two panelled walls recede left and right away from center seam; NO projecting column. Close architectural detail, vertical seam centered, tiny glimpse of light stone floor at bottom, soft warm side lighting, neat physical construction."
+    },
+    {
+      "file": "07-cubrecantos.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: text-free furniture edge-banding macro photograph for Mexican carpentry supplier carousel. Primary subject: very clear close-up of a contemporary honey-oak woodgrain melamine furniture cabinet front outside corner and shelf edge with matching thin woodgrain cubrecanto edge banding already neatly applied, flush and smooth, concealing the chipboard substrate completely. Show top horizontal woodgrain surface, a narrow clean vertical edge band on the shelf front and the vertical cabinet side; physically believable rectangular board join, small natural seam between board face and edging. The oak furniture front horizontal edge runs diagonally across middle of frame from lower left toward upper right, giving a broad sharp focal area. Restrained room behind with warm cream plaster out of focus. Natural warm window light, soft real shadows, tactile fine grain. Furniture should fill most of scene, focus on flawless finished edge, no loose curling tape, no exposed chipboard, no tool. Landscape 3:2 composition. No words, no labels, no dimensions, no logos, no watermarks, no arrows, no graphic overlays."
+    },
+    {
+      "file": "04-plastic-caps-v2.png",
+      "prompt": "Use case: precise-object-edit. Reframe this exact generic WPC stud end cap macro product photograph to a SQUARE image for a carousel card. Keep the same honey oak rectangular beam with dark brown installed end cap and matching loose plastic cap, same material realism and warm light. Change only composition: move the installed capped beam end slightly left of center and place the complete loose cap immediately to its right. Pull camera back enough that BOTH cap shapes are COMPLETELY visible and occupy the central 65% of the square, with generous clear beige workbench at left and right. Neither cap may touch frame edges. No crop of loose cap. Beam can exit upper left. Both pieces remain prominent, clean physically realistic construction. Square composition, no text, no letters, no logos, no labels, no overlays."
+    }
+  ]
+}
